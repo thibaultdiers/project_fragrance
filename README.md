@@ -1,77 +1,39 @@
-TEST
+# AI Perfumer (The Lab 2.0)
+
+We explored the potential of data on perfumes (olfactory notes) to understand how note compositions influence successful fragrance formulas (i.e., the success of perfumes is assessed based on customer ratings). Our project was designed for helping perfumers to create unique and successful perfumes (i.e., given a combination of fragrance, predict the commercial success of a perfume).
+
+Check out our LIVE Heroku Webpage here: http://fragrance-demo.herokuapp.com/
+
+# General info
+
+### Team Members
+
+- Philine Oberhansberg
+- Tiago Mendonça
+- Thibault Diers
+
+### Data Sources
+
+Web Scraping Data : Fragrantica website
+
+### Technologies
+
+- Python
+- Pandas
+- Sklearn
+- CSS
+- BeautifulSoup
+- JSON
+- Streamlit
+
+# Data Processing
+
+The fragrantica.com website provided information on more than 4,000 perfumes and their olfactory notes including the following:
+- Fragrance name and brand,
+- Top notes, middle notes, and base notes, and
+- Perfume rating (out of 5)
 
 
-# Data analysis
-- Document here the project: project_name
-- Description: Project Description
-- Data Source:
-- Type of analysis:
 
-Please document the project the better you can.
 
-# Startup the project
 
-The initial setup.
-
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
-
-Unittest test:
-```bash
-make clean install test
-```
-
-Check for project_name in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/project_name`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "project_name"
-git remote add origin git@github.com:{group}/project_name.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-project_name-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/project_name` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/project_name.git
-cd project_name
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-project_name-run
-```
